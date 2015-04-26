@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN"
+        "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" client="site">
+    <name>whitesquare</name>
+    <creationDate>2015-02-25</creationDate>
+    <author>pcklab</author>
+    <authorEmail></authorEmail>
+    <authorUrl>http://www.pcklab.com</authorUrl>
+    <copyright>© 2014 Pixel Cook Laboratory. All Rights Reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <version>1.0.0</version>
+    <description>TPL_WHITESQUARE_XML_DESCRIPTION</description>
+
+    <files>
+        <folder>css</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+        <folder>language</folder>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+        <filename>favicon.ico</filename>
+        <filename>index.php</filename>
+        <filename>template_preview.png</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>templateDetails.xml</filename>
+    </files>
+	
+    <positions>
+        <position>search</position>
+        <position>menu</position>
+        <position>sitemap-left</position>
+        <position>sitemap-right</position>
+        <position>submenu</position>
+    </positions>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.tpl_whitesquare.ini</language>
+        <language tag="en-GB">en-GB/en-GB.tpl_whitesquare.sys.ini</language>
+    </languages>
+</extension>
